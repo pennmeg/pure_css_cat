@@ -42,3 +42,29 @@ body {
   right: 0%;
   transform: rotate(20deg);
 }
+.eye {
+  position: absolute;
+  width: 7%;
+  height: 8%;
+  top: 30%;
+  background-color: black;
+  border-radius: 50%;
+}
+#eyeL {
+  left: 32%;
+}
+#eyeR {
+  right: 32%;
+}
+#nose {
+  position: absolute;
+  width: 9%;
+  height: 6%;
+  top: 45%;
+  left: 45%;
+  background-color: black;
+  border-radius: 50%;
+  transform: rotate(180deg);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
