@@ -1,6 +1,6 @@
 ## Images Using Pure CSS
 
-# Day 4
+# Day 5
 
 Other Pure CSS Images
 
