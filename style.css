@@ -1,6 +1,5 @@
 body {
   background-color: #b19cd9;
-  /* grey 808080 */
 }
 #box {
   position: relative;
@@ -9,4 +8,26 @@ body {
   display: block;
   width: 600px;
   height: 420px;
+}
+#cat-head, #cat-body {
+  position: absolute;
+  margin: auto;
+  background-color: #808080;
+}
+#cat-head {
+  width: 22%;
+  height: 25%;
+  border-radius: 50%;
+}
+#cat-body {
+  width: 35%;
+  height: 35%;
+  top: 15%;
+  left: 0%;
+  border-radius: 40% 60% 40% 40%;
+}
+.ear {
+  position: absolute;
+  background-color: #808080;
+
 }
