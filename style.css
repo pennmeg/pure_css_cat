@@ -68,6 +68,37 @@ body {
   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
+.whiskers {
+  position: absolute;
+  width: 13%;
+  height: 6%;
+  background-color: #808080;
+  border-radius: 45%;
+}
+#w-1 {
+  top: 50%;
+  left: -10%;
+  transform: rotate(350deg);
+}
+#w-2 {
+  top: 58%;
+  left: -8%;
+  transform: rotate(340deg);
+}
+#w-3 {
+  top: 67%;
+  left: -6%;
+  transform: rotate(330deg);
+}
+#w-4 {
+  top: 48%;
+  right: -10%;
+}
+#w-5 {
+  top: 57%;
+  right: -10%;
+  transform: rotate(10deg);
+}
 .legs {
   position: absolute;
   width: 10%;
